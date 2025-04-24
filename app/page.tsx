@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Menu, X, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "components/ui/button"
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0)
